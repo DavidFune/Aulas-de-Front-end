@@ -1,0 +1,80 @@
+h1{
+	font-size: 24px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 16px;
+}
+
+h1, h2, h3{
+	color: #333;
+	font-family: Arial, sans-serif;
+}
+p{
+	color: #333;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	line-height: 1.8em;
+}
+
+ul li{
+	list-style: none;
+
+}
+
+ul li a{
+	color: #000bff;
+	font-size: 14px;
+	line-height: 1.8em;
+	text-decoration:none;
+	font-family: Arial, sans-serif;
+}
+
+.menu{
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.menu li{
+	display: inline;
+	margin-right: 5px;
+}
+
+.menu a{
+	background-color: #818181;
+	border: 1px solid #575757;
+	color: #fff;
+	padding: 5px;
+}
+
+.wrapper{
+	
+	margin: 0 auto;
+	width: 60%;
+}
+
+.intro{
+	border: 2px solid #13ff00;
+	border-right: none;
+	border-left: none;
+}
+
+.aticle-date{
+	font-size: 12px;
+	font-style: italic; 
+}
+.contact{
+	padding: 0;
+} 
+.contact li{
+	display: inline;
+	margin-right: 5px;
+
+}
+
+.contact li a{
+	color: #333;
+
+}

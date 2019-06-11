@@ -1,0 +1,10 @@
+p{
+	font: 14px/22px "Helvetica Neue", arial, sans-serif;}
+
+input: disabled{
+
+	border: 1px solid #222;
+	background: #eee;
+	cursor: not-allowed;
+
+}

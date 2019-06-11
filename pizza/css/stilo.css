@@ -1,0 +1,114 @@
+body{
+	background-color: #606060;
+	background-image: url(../img/pizza-background-3.png);
+	background-repeat: no-repeat;
+	/* */
+	background-size: contain;
+	margin: 0px;
+}
+
+
+/*########################################-fim body-##################################################*/
+#banner{
+	background-color: rgba(0,0,0,.25);
+	height: 100px;
+	/*a tag padding delimita as bordas internas banner*/
+	padding: 10px 70px 30px 10px;
+
+}
+
+/*a tag float deixa o elemento flutuando*/
+#banner nav{
+	float: right;
+	position: relative;
+	top: 10px;
+}
+#banner h1{
+	float: left;
+	margin: 0px;
+
+}
+#banner ul{
+	margin: 0px
+}
+
+/* nesse caso estamos mexendo na caixinhas 
+dentro da lista não nos seus elementos*/
+#banner nav ul li{
+	/*display: inline essa tag desconsidera altura e largura dos elementos */
+	display: inline-block;
+	width: 100px;
+}
+
+#banner nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "Helvetica Neue", sans-serif;
+}
+/*########################################-fim banner-##################################################*/
+
+#sabores-pizzas h2{
+/* a tag line-height define quantas vzs a altura do paragrafo vai ser em relação a font-size*/
+	color: #ffffff;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0px;
+	line-height: 6;
+	text-shadow: 2px -2px 10px 	 #1a1a00;
+}
+#sabores-pizzas table{
+	background-color: #2a2a2a;
+	/*para remover os espaços entre as celulas da tabela usa-se o border-collopse = */
+	border-collapse: collapse;
+	margin: 0 auto;font-family: "Helvetica Neue", sans-serif;
+	width: 80%;
+}
+/*esse metodo é usado quando se tem propriedades semelhantes para elementos
+para dar borda as tabelas foi usada a tag border*/
+#sabores-pizzas table th, 
+#sabores-pizzas table td{
+	
+	border: 1px #000 solid;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Helvetica Neue", sans-serif;
+	/*o padding detor do tr td é para dar espaçamento interno dentro da celulas*/
+	padding: 25px;
+}
+
+#sabores-pizzas .tex-negativo{
+	color: #ff4d4d;
+}
+
+#sabores-pizzas .tex-positivo{
+	color: #53ff1a;
+}
+#copyright a{
+	display: block;
+	text-align: center;
+}
+#copyright p{
+	text-align: center;
+	font-size: 12px;
+	font-family: "Helvetica Neue", sans-serif; 
+}
+
+#copyright{
+	padding: 35px 0px 10px 0px;
+	background-color: #606060;
+
+}
+/*definindo aquele espacamento entre a tabela e o topo da pagina*/
+#sabores-pizzas{
+	padding-bottom: 60px;
+	padding-top: 400px;
+
+}
+

@@ -1,0 +1,7 @@
+p{
+	font: 14px/22px "Helvetica Neue", arial, sans-serif;}
+
+
+input[type=checkbox]:checked + label{
+	color: green;
+}

@@ -1,0 +1,11 @@
+
+p {
+	font: 14px/22px, "Helvetica Neue", arial, sans-serif;
+}
+
+
+p:nth-of-type(an+1) {
+
+	background: #eee;
+
+}

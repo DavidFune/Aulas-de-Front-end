@@ -1,0 +1,7 @@
+p{
+	font: 14px/22px "Helvetica Neue", arial, sans-serif;
+}
+p: first-of-type {
+	font-size: italic;
+	color: #001cff	;
+}

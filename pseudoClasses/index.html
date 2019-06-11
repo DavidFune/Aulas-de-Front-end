@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="stile.css">
+</head>
+<body>
+		<p>
+		Podemos criar regras com o CSS que somente são aplicadas se um elemento possui um determinado estado.
+		As pseudo-classes possuem a seguinte sintaxe e são adicionadas ao seletor da seguinte forma:
+		seletor:pseudo-classe { /* declaração*/ }
+		Note acima que o seletor e a pseudo-classe são separadas por dois pontos (:).
+		Por exemplo, podemos dizer que um input terá a cor de fundo cinza se esse elemento estiver desabilitado da seguinte forma:
+		1
+		2
+		input disabled=”disabled”/
+		input:disabled { background-color: gray; }</p>
+
+		<p>
+			Neste caso, enquanto o elemento input estiver com a propriedade :disabled habilitada, o mesmo terá a cor de fundo cinza. Quando essa propriedade for removida ou modificada de forma que seja avaliada como falsa, a regra CSS acima não será mais aplicada ao elemento.
+			As pseudo-classes são um recurso poderoso, que quando utilizadas em conjunto com os outros recursos do CSS, como combinadores, nos permitem criar diversos efeitos.
+			Por exemplo, podemos alterar a cor de fundo de um label, se o checkbox a sua frente estiver selecionado, considerando a ordem na qual os elementos foram dispostos na cadeia de elementos da página:
+		</p>
+
+</body>
+</html>
